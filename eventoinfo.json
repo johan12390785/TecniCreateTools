@@ -1,8 +1,10 @@
 {
+  "nombre": "Servidor Técnico V1",
+  "foto_url": "https://...",
+  "version_mc": "1.20.1",
   "modloader": "Fabric",
   "version_modloader": "0.16.4",
-  "version_mc": "1.20.1",
-  "version_evento": "1.0.5",
-  "foto_url": "https://url-a-tu-foto.png",
-  "descripcion": "Nombre Evento"
+  "version_evento": "1.0.0",
+  "mods_url": "https://raw.githubusercontent.com/.../tecnico_v1/mods.json",
+  "recursos_url": "https://raw.githubusercontent.com/.../tecnico_v1/recursos.json"
 }
