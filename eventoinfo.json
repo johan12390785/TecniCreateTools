@@ -1,7 +1,8 @@
 {
   "modloader": "Fabric",
+  "version_modloader": "0.16.4",
   "version_mc": "1.20.1",
   "version_evento": "1.0.5",
   "foto_url": "https://url-a-tu-foto.png",
-  "descripcion": "Un evento con mods técnicos y máquinas avanzadas."
+  "descripcion": "Nombre Evento"
 }
