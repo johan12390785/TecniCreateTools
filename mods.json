@@ -1,7 +1,14 @@
 {
   "mods": [
-    { "slug": "sodium", "id": "AANobbMI" },
-    { "slug": "lithium", "id": "gv9mYp9e" },
-    { "slug": "fancymenu", "id": "89S8S8S" }
+    { 
+      "id": "P7dR8mSH", 
+      "slug": "fabric-api", 
+      "version_fija": "0.92.0+1.20.1" 
+    },
+    { 
+      "id": "AANobbMI", 
+      "slug": "sodium", 
+      "version_fija": "" 
+    }
   ]
 }
