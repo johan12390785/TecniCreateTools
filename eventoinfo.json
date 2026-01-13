@@ -1,9 +1,9 @@
 {
   "nombre": "Servidor Técnico V1",
   "foto_url": "https://raw.githubusercontent.com/johan12390785/EventoEjemplo/refs/heads/main/foto.png",
-  "version_mc": "1.20.1",
+  "version_mc": "1.21.11",
   "modloader": "Fabric",
-  "version_modloader": "0.16.4",
+  "version_modloader": "0.18.4",
   "version_evento": "1.0.0",
   "mods_url": "https://raw.githubusercontent.com/johan12390785/EventoEjemplo/refs/heads/main/mods.json",
   "recursos_url": "https://raw.githubusercontent.com/johan12390785/EventoEjemplo/refs/heads/main/recursos.json"
