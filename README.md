@@ -82,14 +82,30 @@ Usa esto para descargar configuraciones, resourcepacks, mapas o scripts. El arch
 
 ---
 
-## 4. Mods Personalizados o Archivos Pesados (>100MB)
+## 4. Mods Personalizados (No están en Modrinth)
 
-Si tienes un mod propio (que no está en Modrinth) o un archivo que pesa más de 100MB (el límite normal de GitHub), debes usar **GitHub Releases**.
+Si necesitas instalar un mod propio o que no existe en la tienda, tienes dos formas de subirlo dependiendo de su peso:
+
+### Opción A: Si el archivo pesa MENOS de 100MB (Rápido)
+Puedes subirlo directamente junto con los archivos de este repositorio.
+
+1. Arrastra tu archivo `.jar` o `.zip` a la lista de archivos en GitHub y dale a "Commit changes".
+2. Haz clic en el archivo que acabas de subir.
+3. Busca el botón que dice **"Raw"** (o "Download") a la derecha.
+4. Haz **Click Derecho** > **Copiar dirección del enlace**.
+
+### Opción B: Si el archivo pesa MÁS de 100MB (GitHub Releases)
+GitHub no permite subir archivos gigantes directamente. Debes usar **Releases** (Soporta hasta 2GB):
 
 1. En tu repositorio, mira a la derecha donde dice **"Releases"** y haz clic en "Create a new release".
-2. Ponle un título (ej: "Mods Custom") y **arrastra tu archivo** (.zip o .jar) a la zona de subida (Soporta hasta 2GB).
+2. Ponle un título (ej: "Mods Pesados") y **arrastra tu archivo** a la zona de subida.
 3. Publica la release.
 4. En la sección "Assets" de la release publicada, haz **Click Derecho** sobre tu archivo y **Copiar dirección del enlace**.
+
+---
+
+### 📝 Cómo agregarlo al `recursos.json`
+Independientemente de la opción que uses, pega el enlace que copiaste en tu archivo `recursos.json` apuntando a la carpeta de mods:
 
 **Agrégalo a `recursos.json` así:**
 
