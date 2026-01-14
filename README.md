@@ -14,17 +14,15 @@ Para que el evento funcione, necesitas obligatoriamente estos 3 archivos en tu r
 ## 1. Configurar eventoinfo.json
 Este archivo define la identidad del evento.
 
-[
-  {
-    "nombre": "Nombre Del Evento",
-    "foto_url": "LINK_DIRECTO_A_TU_IMAGEN_PNG",
-    "version_mc": "1.20.1",
-    "modloader": "Fabric",
-    "version_modloader": "0.14.22",
-    "version_evento": "1.0.0" 
-  }
-]
-
+```json
+{
+  "nombre": "Nombre Del Evento",
+  "foto_url": "LINK_DIRECTO_A_TU_IMAGEN_PNG",
+  "version_mc": "1.20.1",
+  "modloader": "Fabric",
+  "version_modloader": "0.14.22",
+  "version_evento": "1.0.0"
+}
 > **Nota:** El campo "version_evento" sirve para notificar actualizaciones. Si cambias el número, el botón del Launcher cambiará automáticamente a "ACTUALIZAR".
 
 ---
@@ -34,15 +32,15 @@ Aquí colocas los IDs de los mods de **Modrinth**. El Launcher los descargará e
 
 {
   "mods": [
-    { 
-      "id": "P7dR8mSH", 
-      "slug": "fabric-api", 
-      "version_fija": "" 
+    {
+      "id": "P7dR8mSH",
+      "slug": "fabric-api",
+      "version_fija": ""
     },
-    { 
-      "id": "AANobbMI", 
-      "slug": "sodium", 
-      "version_fija": "mc1.20.1-0.5.3" 
+    {
+      "id": "AANobbMI",
+      "slug": "sodium",
+      "version_fija": "mc1.20.1-0.5.3"
     }
   ]
 }
@@ -63,11 +61,10 @@ Usa esto para descargar configuraciones, resourcepacks, mapas o scripts. El arch
 [
   {
     "nombre": "Pack de Texturas",
-    "url": "[https://tusitio.com/serverpack.zip](https://tusitio.com/serverpack.zip)",     <------ Tambien puedes subir al github y copiar el raw de descarga
+    "url": "[https://github.com/TU_USUARIO/TU_REPO/raw/main/serverpack.zip](https://github.com/TU_USUARIO/TU_REPO/raw/main/serverpack.zip)",
     "destino": "resourcepacks"
   }
 ]
-
 > **Importante:** El .zip se descomprimirá automáticamente dentro de la carpeta que indiques en "destino".
 
 ---
