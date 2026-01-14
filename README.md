@@ -39,37 +39,32 @@ Aquí van los mods oficiales de la tienda Modrinth.
   "mods": [
     { 
       "id": "P7dR8mSH", 
-      "slug": "fabric-api", 
       "version_fija": "0.92.0+1.20.1" 
     },
     { 
       "id": "AANobbMI", 
-      "slug": "sodium", 
       "version_fija": "" 
     },
     { 
       "id": "Wq5SjeWM", 
-      "slug": "fancymenu", 
       "version_fija": "" 
     },
     { 
       "id": "J81TRJWm", 
-      "slug": "konkrete", 
       "version_fija": "" 
     },
     { 
       "id": "CVT4pFB2", 
-      "slug": "melody", 
       "version_fija": "" 
     }
   ]
 }
+
 ```
 
 ### 🛑 Reglas de Oro para Mods:
-1. **ID vs Slug:**
+1. **ID:**
    * **`id`**: Es el código raro (ej: `P7dR8mSH`). **Es obligatorio** para descargar.
-   * **`slug`**: Es el nombre humano (ej: `fabric-api`). Es solo visual para ti.
 2. **Version Fija:**
    * Déjalo siempre en `""` (vacío). El launcher buscará automáticamente la última versión compatible.
    * **Solo** pon un número si el mod está roto y necesitas una versión antigua específica.
