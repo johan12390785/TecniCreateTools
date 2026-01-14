@@ -2,11 +2,13 @@
   {
     "nombre": "Configuración FancyMenu",
     "url": "https://link.com/fancymenu_config.zip",
-    "destino": "config" 
+    "destino": "config",
+    "descomprimir": true
   },
   {
     "nombre": "Texturas del Servidor",
     "url": "https://link.com/pack.zip",
-    "destino": "resourcepacks"
+    "destino": "resourcepacks",
+    "descomprimir": false
   }
 ]
