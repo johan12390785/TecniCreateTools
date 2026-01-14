@@ -26,8 +26,16 @@ Define la identidad de tu evento aquí.
   "version_evento": "1.0.0"
 }
 ```
-> **🔄 Actualizaciones:** Cada vez que hagas un cambio en los mods o configs, **aumenta el número** de `version_evento` (ej: de `1.0.0` a `1.0.1`). Esto avisará a los jugadores que deben actualizar.
->**ModLoader:**Eligir uno y escribirlo exactamente como esta en el ejemplo.
+##**🔄 Protocolo de Actualización (MUY IMPORTANTE)**
+Para evitar que los jugadores descarguen archivos viejos por culpa de la caché de GitHub (como el error de versiones mixtas V4/V5 visto en el chat), sigue siempre este orden:
+
+**Sube los cambios** en mods.json y recursos.json.
+
+**Espera de 6 a 8 minutos** a que los servidores de GitHub procesen y refresquen los archivos.
+
+**Finalmente**, cambia la `version_evento` en este archivo (ej: de `1.0.0` a `1.0.1`).
+
+**Nota:** Cambiar la versión de evento es lo que "despierta" al Launcher. Si lo haces al final, te aseguras de que cuando el Launcher busque los mods, estos ya estén disponibles y actualizados.
 ---
 
 ## 2. Configurar `mods.json` (Modrinth)
@@ -121,7 +129,7 @@ Si tienes un mod propio o muy pesado (>100MB) que no está en la tienda:
   "descomprimir": false
 }
 ```
-
+**Nota:** Si tu mod pesa menos de 100MB puede ocupar la seccion de recursos.json
 ---
 
 ## ⚠️ Errores Frecuentes
