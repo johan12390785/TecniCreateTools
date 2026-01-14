@@ -1,6 +1,6 @@
 # 🎈 Plantilla de Evento - TecniLauncher
 
-Este repositorio sirve como base para crear nuevos eventos. Sigue esta guía para que los jugadores puedan entrar a tu servidor con un solo clic.
+Este repositorio sirve como base para crear nuevos eventos. Sigue esta guía para que los jugadores puedan entrar a tu servidor de una froma mas facil.
 
 ## 📂 Archivos Necesarios
 
