@@ -27,7 +27,7 @@ Define la identidad de tu evento aquí.
 }
 ```
 ##**🔄 Protocolo de Actualización (MUY IMPORTANTE)**
-Para evitar que los jugadores descarguen archivos viejos por culpa de la caché de GitHub (como el error de versiones mixtas V4/V5 visto en el chat), sigue siempre este orden:
+Para evitar que los jugadores descarguen archivos viejos por culpa de la caché de GitHub, sigue siempre este orden:
 
 **Sube los cambios** en mods.json y recursos.json.
 
