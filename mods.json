@@ -1,15 +1,55 @@
 {
   "mods": [
     { 
-      "id": "SzzJttH8",  <!-- Tacz -->
+      "id": "SzzJttH8",
       "version_fija": "" 
     },
     { 
-      "id": "EsAfCjCV",  <!-- AppleSkin -->
+      "id": "EsAfCjCV",
       "version_fija": "" 
     },
     { 
-      "id": "lhGA9TYQ",  <!-- Architectury API-->
+      "id": "lhGA9TYQ",
+      "version_fija": "" 
+    },
+    { 
+      "id": "HXF82T3G", 
+      "version_fija": "18.0.0.592" 
+    },
+    { 
+      "id": "rLLJ1OZM", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "WrpuIfhw", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "LNytGWDc", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "sk9rgfiA", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "Wq5SjeWM", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "R2OftAxM", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "uXXizFIs", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "23MovWyi", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "u6dRKJwZ", 
       "version_fija": "" 
     },
     { 
@@ -17,7 +57,75 @@
       "version_fija": "" 
     },
     { 
+      "id": "umyGl7zF", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "BZemjxZb", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "T38eAZQC", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "D157Rgyf", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "TObQ0HxZ", 
+      "version_fija": "" 
+    },
+    { 
       "id": "CVT4pFB2", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "esqWA0aQ", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "gedNE4y2", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "sk9knFPE", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "v8jzRtAt", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "9eGKb6K1", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "qUhSghSQ", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "guitPqEi", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "P2rffivS", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "kkmrDlKT", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "8VDCUS3b", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "6GSnLKaR", 
+      "version_fija": "" 
+    },
+    { 
+      "id": "mMTOWOaA", 
       "version_fija": "" 
     }
   ]
