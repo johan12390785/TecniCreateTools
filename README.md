@@ -20,6 +20,7 @@ Define la identidad de tu evento aquí.
 {
   "nombre": "Gran Evento",
   "foto_url": "LINK_DIRECTO_IMAGEN.png",
+  "DiscordUrl": "https://discord.gg/TU_CODIGO_AQUI"
   "version_mc": "1.20.1",
   "modloader": "Fabric/Forge/NeoForge",
   "version_modloader": "0.14.22",
